@@ -12,7 +12,7 @@ class UserServices {
 
     static async getAll(){
         try{
-            return await Users.find
+            return await Users.find({})
         }catch (error){
             console.log(error);
         }
