@@ -1,6 +1,9 @@
 const mongoose  = require("mongoose");
 
 const MenteesScheme = new mongoose.Schema({
+    userId:{
+        type: String
+    },
     mentor:{
         type : Array
     },
