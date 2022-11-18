@@ -1,7 +1,7 @@
 const mongoose  = require("mongoose");
 
 const MentorScheme = new mongoose.Schema({
-    user:{
+    userId:{
         type : String
     },
     mentees : {
