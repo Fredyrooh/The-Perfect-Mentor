@@ -1,6 +1,6 @@
 const mongoose  = require("mongoose");
 
-const ObjectivesScheme = new mongoose.Schema({
+const TargetsScheme = new mongoose.Schema({
     name:{
         type : String
     },  
@@ -18,4 +18,4 @@ const ObjectivesScheme = new mongoose.Schema({
 })
 
 
-module.exports = mongoose.model("Objectives", ObjectivesScheme)
+module.exports = mongoose.model("targets", TargetsScheme)

@@ -3,8 +3,11 @@ const mongoose  = require("mongoose");
 const NotesScheme = new mongoose.Schema({
     idStundent:{
         type : String
-    },  
-    notes:{
+    }, 
+    title:{
+        type: String
+    }, 
+    note:{
         type : Array
     }
 },
