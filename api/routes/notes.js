@@ -4,7 +4,7 @@ const router = express.Router()
 
 router.post('/create',NotesControllers.createNote)
 router.get('/all', NotesControllers.getAll)
-router.get('/find/:id', NotesControllers.findById)
+router.get('/find/:id', NotesControllers.findUserNotes)
 // ejemplo para tunder {
 //   "_id":"637bc7d06d3d350afd0e8df4",
 //   "update" : {
