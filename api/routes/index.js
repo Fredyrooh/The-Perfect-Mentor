@@ -1,5 +1,8 @@
 const express = require("express")
-const Users = require("../models/Users")
+const badges = require('./badges')
+const meets = require('./meets')
+const mentees = require('./mentees')
+const mentor = require('./mentor')
 const router = express.Router()
 const user = require('./user')
 const auth = require('./auth')
@@ -8,8 +11,11 @@ const note = require('./notes')
 
 router.use('/auth',auth)
 router.use('/user',user)
-router.use('/auth',auth)
 router.use('/target',target)
 router.use('/note',note)
+router.use('/badges',badges)
+router.use('/meets',meets)
+router.use('/mentees',mentees)
+router.use('/mentor',mentor)
 
 module.exports = router
