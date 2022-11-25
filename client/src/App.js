@@ -1,9 +1,12 @@
-import './App.css';
+import { OnBoarding } from "./components/OnBoarding";
+import { Routes, Route } from 'react-router'
 
 function App() {
   return (
-    <div className="App">
-      
+    <div >
+     <Routes>
+     <Route path="/" element={<OnBoarding />} />
+     </Routes>
     </div>
   );
 }
