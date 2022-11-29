@@ -1,15 +1,28 @@
-import React from 'react'
+import React from "react";
 
 export const OnBoarding = () => {
   return (
-    <div className='bg-red-100 '>
+    <div>
+      <div className="pt-20 pl-10">
+        <img
+          className="absolute "
+          src={require("../assets/title.png")}
+          alt="title"
+        />
 
-    <h1 className="text-3xl text-red-500 underline">
-    Hello world!
-  </h1>
- <div className='text-center'>
- <button className='bg-black text-white rounded-xl bg-contain p-4'>este es un boton</button>
- </div>
-  </div>
-  )
-}
+        <img
+          className="pt-20 absolute"
+          src={require("../assets/resorte.png")}
+          alt="title"
+        />
+
+        <img
+          className="pt-2 "
+          src={require("../assets/Saly-1.png")}
+          alt="title"
+        />
+        <img src={require("../assets/ondulacion.png")} alt="title" />
+      </div>
+    </div>
+  );
+};

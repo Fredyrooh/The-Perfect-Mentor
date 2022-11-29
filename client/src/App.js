@@ -4,7 +4,7 @@ import SignUp from "./components/SignUp";
 
 function App() {
   return (
-    <div >
+    <div className="min-h-screen bg-colorbase">
      <Routes>
      <Route path="/onboarding" element={<OnBoarding />} />
      <Route path="/" element={ <SignUp />} />

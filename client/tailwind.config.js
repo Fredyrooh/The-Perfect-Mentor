@@ -12,7 +12,8 @@ module.exports = {
         '40':'40px'
       },
       backgroundColor:{
-        'black-tpm': '#444444'
+        'black-tpm': '#444444',
+         "colorbase" : "#BFD732"
       },
       borderColor:{
         'black-tpm': '#444444'
