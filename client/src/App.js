@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router'
 
 function App() {
   return (
-    <div >
+    <div className="min-h-screen bg-colorbase">
      <Routes>
      <Route path="/" element={<OnBoarding />} />
      </Routes>
