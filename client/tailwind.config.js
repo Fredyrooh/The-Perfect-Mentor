@@ -5,10 +5,20 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundColor: {
-        "colorbase" : "#BFD732"
+      fontFamily:{
+        'heebo': 'var(--font-family-heebo)'
+      },
+      borderRadius: {
+        '40':'40px'
+      },
+      backgroundColor:{
+        'black-tpm': '#444444',
+         "colorbase" : "#BFD732"
+      },
+      borderColor:{
+        'black-tpm': '#444444'
       }
-    }
+    },
   },
   plugins: [],
 }
